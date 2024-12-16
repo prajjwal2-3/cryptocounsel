@@ -1,0 +1,20 @@
+export const pages = [
+    { page: "Dashboard", icon: "home",route:'/dashboard' },
+    { page: "All Documents", icon: "article",route:'/document' },
+    { page: "Raise", icon: "add_card",route:'/raise' },
+    { page:'Create Draft',icon:'contract_edit',route:'/create'},
+    { page: "Gap Analysis", icon: "gavel",route:'/gapanalysis' },
+    { page: "Conflict Check", icon: "rule",route:'/conflictcheck' },
+    { page: "Review & Check", icon: "person_check",route:'/review' },
+    { page: "Compliance",icon: "timeline",route:'/timeline'},
+    { page: "Team & Options", icon: "lock" ,route:'/dashboard'},
+    { page: "Due Diligence", icon: "lock",route:'/dashboard' },
+    { page: "Go International", icon: "lock",route:'/dashboard' },
+    { page: "Cap Table", icon: "lock" ,route:'/dashboard'},
+    { page: "Shareholders", icon: "lock",route:'/dashboard' },
+    { page: "Filings", icon: "lock" ,route:'/dashboard'},
+    { page: "Start New Business", icon: "lock",route:'/dashboard' },
+    { page: "Policies", icon: "lock" ,route:'/dashboard'},
+    { page: "Settings", icon: "lock",route:'/dashboard' },
+    { page: "Help", icon: "lock" ,route:'/dashboard'}
+  ]
