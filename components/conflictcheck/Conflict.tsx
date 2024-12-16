@@ -4,10 +4,8 @@
 
 import { useState,ChangeEvent, JSX } from 'react';
 import { Button } from "@/components/ui/button";
-import { Textarea } from "@/components/ui/textarea";
 import pdfToText from "react-pdftotext";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Upload, FileText, AlertTriangle, Check, RefreshCw } from 'lucide-react'
 import { Input } from '../ui/input';
 export default function Conflict() {
   const [document1, setDocument1] = useState('');

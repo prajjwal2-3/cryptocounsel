@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import pdfToText from "react-pdftotext";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Upload, FileText, AlertTriangle, Check, RefreshCw } from 'lucide-react'
+import { Upload } from 'lucide-react'
 export default function Home() {
   const [document1, setDocument1] = useState('');
   const [document2, setDocument2] = useState('');

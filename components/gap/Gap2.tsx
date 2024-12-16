@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, ChangeEvent } from 'react';
+import { useState, ChangeEvent, JSX } from 'react';
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import pdfToText from "react-pdftotext";

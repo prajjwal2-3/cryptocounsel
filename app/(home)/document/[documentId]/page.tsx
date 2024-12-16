@@ -1,11 +1,8 @@
 import DocViewerConqr from "@/components/documents/DocViewerConqr"
 import { document } from '@/data/document';
-type params={
-    documentId:string
-    }
 
-export default function page({ params }:{params:params}) {
-    const fileKey = params.documentId
+export default async function page({ params }:{params:Promise<{slug: string}>}) {
+    const fileKey = (await params).slug
     function getDocumentTitle(fileKey:string) {
         for (const category of document) {
             for (const doc of category.documentlist) {
@@ -21,7 +18,7 @@ export default function page({ params }:{params:params}) {
     <div className="flex flex-col items-center bg-white p-4 rounded-lg mx-auto  ">
       <DocViewerConqr
         title={title}
-        url={`https://utfs.io/f/${params.documentId}`}
+        url={`https://utfs.io/f/${fileKey}`}
       />
       
     </div>

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
-import { Upload, FileText, AlertTriangle, Check, RefreshCw } from 'lucide-react'
+import { Upload, FileText, AlertTriangle,  RefreshCw } from 'lucide-react'
 import pdfToText from "react-pdftotext";
 interface Conflict {
   text: string;

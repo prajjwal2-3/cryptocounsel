@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+
 
 import { redirect } from "next/navigation";
 import {getKindeServerSession} from "@kinde-oss/kinde-auth-nextjs/server";

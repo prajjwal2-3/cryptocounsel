@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { DM_Sans } from 'next/font/google'
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "./prosemirror.css"
 import "@uploadthing/react/styles.css";
@@ -9,15 +8,9 @@ import Header from "@/components/wrapper/Header";
 import Sidebar from "@/components/sidebar/Sidebar";
 import LandingPage from "@/components/LandingPage";
 import { Toaster } from "@/components/ui/toaster"
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+
 const inter = DM_Sans({ subsets:['latin']})
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+
 
 export const metadata: Metadata = {
   title: "Conqrr",

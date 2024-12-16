@@ -5,7 +5,6 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
-import { AlertCircle } from 'lucide-react';
 import pdfToText from "react-pdftotext";
 import { useUserStore } from '@/store/userstore';
 import { useDocumentStore } from '@/store/documentStore';

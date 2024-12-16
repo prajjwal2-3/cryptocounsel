@@ -1,3 +1,5 @@
+import { JSX } from "react";
+
 export const FormatSummary = (result: string) => {
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(result, "text/xml");

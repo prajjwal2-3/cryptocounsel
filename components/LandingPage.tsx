@@ -1,4 +1,4 @@
-import { ContainerScroll } from "./ui/container-scroll-animation";
+
 import Image from "next/image";
 import landing from "../public/landing.svg";
 import { Folder, CheckSquare, FileText } from "lucide-react";

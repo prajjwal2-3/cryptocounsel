@@ -7,7 +7,7 @@ const { getUser } = getKindeServerSession();
 
 export const ourFileRouter = {
   imageUploader: f({ image: { maxFileSize: "4MB" } })
-    .middleware(async ({ req }) => {
+    .middleware(async () => {
       const user = await getUser();
       if (!user) throw new UploadThingError("Unauthorized");
       return { userId: user.id };
@@ -20,7 +20,7 @@ export const ourFileRouter = {
 
   // New route for PDF uploads
   pdfUploader: f({ pdf: { maxFileSize: "8MB" } })
-    .middleware(async ({ req }) => {
+    .middleware(async () => {
       const user = await getUser();
       if (!user) throw new UploadThingError("Unauthorized");
       return { userId: user.id };
